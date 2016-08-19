@@ -1,0 +1,25 @@
+{
+  "name": "up-and-running",
+  "version": "1.0.0",
+  "description": "learning nodejs",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "runtests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/brighaus/up-and-running.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "brigham hausman",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/brighaus/up-and-running/issues"
+  },
+  "homepage": "https://github.com/brighaus/up-and-running#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
