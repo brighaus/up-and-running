@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Basic QUnit Test</title>
+ 
+  <link rel="stylesheet" href="qunit.css">
+  <script src="qunit.js"></script>
+  <!-- TODO: This points to a node target... -->
+  <script>
+  var testme = function (str) {
+    return typeof(str) === 'string';
+  }
+  </script>
+ 
+  <script>
+  QUnit.test("test basics", function( assert ) {
+    assert.ok(testme("this is a string"), "string test");
+    assert.notOk(testme(123), "non string test");
+  });
+  </script>
+</head>
+<body>
+ 
+<div id="qunit"></div>
+ 
+</body>
+</html>
